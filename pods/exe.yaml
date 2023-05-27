@@ -5,20 +5,20 @@ metadata:
   name: omnamashivayya
 spec:
   containers:
-     name: nginx
-     image: nginx
-     Ports:
-       - containerPort: 80
-      - name: alpine1
-        image: alpine
-        args:
-          - sleep
-          - 1d
-      - name: alpine2
-        image: alpine
-        args:
-         - sleep
-         - 10s     
+    - name: nginx
+      image: nginx
+      ports:
+        - containerPort: 80
+    - name: alpine1
+      image: alpine
+      args:
+        - sleep
+        - 1d
+    - name: alpine2
+      image: alpine
+      args:
+        - sleep
+        - 10s
 
   
   
