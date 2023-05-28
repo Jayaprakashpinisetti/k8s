@@ -4,8 +4,8 @@ metadata:
   name: jaya2
 spec:
   containers:
-    - name: jenkins
-      image: jenkins
+    - name: jenkins/jenkins
+      image: jenkins/jenkins
       ports:
         - containerPort: 8080
       args:
