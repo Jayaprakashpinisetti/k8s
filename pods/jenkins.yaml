@@ -4,10 +4,10 @@ metadata:
   name: jaya1
 spec:
   containers:
-    - name: jenkinsjenkins
-      image: jenkinsjenkins
+    - name: jenkins
+      image: jenkins
       ports:
         - containerPort: 8080
-        args:
-          - sleep
-          - 1d 
+      args:
+        - sleep
+         - 1d 
