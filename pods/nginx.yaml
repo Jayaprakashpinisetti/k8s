@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: omnamashivayya
+spec:
+  containers:
+    - name: nginx
+      image: nginx  
+      ports:
+        - ContainerPort: 80
+    - name: alpine
+      image: alpine 
+      args:
+        - sleep
+        - 10s
