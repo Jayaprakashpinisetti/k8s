@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: jay1
+  name: Jay1
 spec:
   containers:
-    - name: jenkins/jenkins
-      image: jenkins/jenkins
+    - name: jenkins
+      image: jenkins
       ports:
         - containerPort: 8080
