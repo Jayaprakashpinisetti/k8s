@@ -7,7 +7,7 @@ spec:
     - name: jenkins/jenkins
       image: jenkins/jenkins
       ports:
-        - containerPort: 8080
+       - containerPort: 8080
         args:
           - sleep
           - 1d 
