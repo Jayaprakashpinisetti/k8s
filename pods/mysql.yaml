@@ -4,8 +4,8 @@ metadata:
   name: jjjj
 spec:
   containers:
-     - name: mysql
-       image: mysql
+    - name: mysql
+      image: mysql
       ports:
         - containerPort: 3306
       args:
