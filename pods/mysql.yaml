@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: jjjj
 spec:
-  restartoPlicy: Never
+  restartPolicy: Never
   containers:
     - name: mysql
       image: mysql
