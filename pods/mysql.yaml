@@ -11,7 +11,7 @@ spec:
         - containerPort: 3306
       args:
         - sleep
-        - 1000s  
+        - 10s  
     
 
 
