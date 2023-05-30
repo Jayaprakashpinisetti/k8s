@@ -15,7 +15,7 @@ spec:
         - containerPort: 80
       args:
         - sleep
-        - 1s  
+        - 100s  
     - name: alpine3
       image: alpine3
       args:
