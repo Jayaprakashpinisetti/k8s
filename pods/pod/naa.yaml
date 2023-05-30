@@ -8,14 +8,14 @@ spec:
       image: nginx
       ports:
         - containerPort: 80
-      args:
-        - sleep
-        - 1d  
+       
     - name: alpine
       image: alpine 
+      ports:
+        - containerPort: 80
       args:
         - sleep
-        - 1d   
+        - 1s  
     - name: alpine3
       image: alpine3
       args:
