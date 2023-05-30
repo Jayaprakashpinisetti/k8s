@@ -9,7 +9,10 @@ spec:
       ports:
         - containerPort: 80
     - name: alpine
-      image: alpine    
+      image: alpine 
+       args:
+        - sleep
+        - 1d   
     - name: alpine3
       image: alpine3
       args:
