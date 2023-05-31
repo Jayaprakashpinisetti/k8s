@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: sivav
+  name: siva
   labels: 
     app: nginx
 spec:
