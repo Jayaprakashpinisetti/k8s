@@ -9,7 +9,7 @@ spec:
     - name: nginx
       image: nginx:1.23
       ports:
-        - containerPort: 8080
+        - containerPort: 80
       args:
         - sleep"
-        - 100s    
+        - 1d    
