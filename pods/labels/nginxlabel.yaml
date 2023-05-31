@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: ekaNsv
+  labels: 
+    app: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.23
+      ports:
+        - containerPort: 8080
+      args:
+        - sleep"
+        - 100s    
