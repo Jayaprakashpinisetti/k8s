@@ -13,7 +13,7 @@ spec:
         metadata:
           name: livedatapod
         spec:
-           restartPolicy: OnFailure
+          restartPolicy: OnFailure
           containers:
             - name: alpine
               image: alpine
