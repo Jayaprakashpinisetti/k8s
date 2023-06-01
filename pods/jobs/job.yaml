@@ -8,11 +8,11 @@ spec:
   template:
     metadata:
       name: podjob
-  spec:
-    restartPolicy: OnFailure
-    containers:
-      - name: alpine
-        image: alpine
-        args:
-          - sleep
-          - 1d    
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: alpine
+          image: alpine
+          args:
+            - sleep
+            - 1d    
