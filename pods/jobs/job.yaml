@@ -9,6 +9,7 @@ spec:
     metadata:
       name: podjob
   spec:
+    restartPolicy: OnFailure
     containers:
       - name: alpine
         image: alpine
