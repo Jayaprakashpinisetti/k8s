@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: ReplicaSet
-metadata: 
+metadata:
   name: jenkins-rs
 spec:
   minReadySeconds: 5
   replicas: 5
-  selector:  
+  selector:
     matchLabels:
       app: jenkins
   template:
@@ -13,7 +13,7 @@ spec:
       name: jenkins
       labels:
         app: jenkins
-    spec: 
+    spec:
       containers:
         - name: jenkins
           image: jenkins/jenkins:lts-jdk11
@@ -24,6 +24,3 @@ spec:
           args:
             - sleep
             - 1d
-
-
-
