@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: joip
+  name: joip4
 spec:
   containers:
     - name: jaya
