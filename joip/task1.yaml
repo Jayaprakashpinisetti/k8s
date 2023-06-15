@@ -2,11 +2,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: joip4
+  name: joip44
 spec:
   containers:
     - name: jaya
-      image: shivasomanath/spc:1.0
+      image: jayaprakashjnks/spc:2.0
       ports:
         - containerPort: 8080
       args:
