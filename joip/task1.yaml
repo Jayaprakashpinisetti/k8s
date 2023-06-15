@@ -11,4 +11,4 @@ spec:
         - containerPort: 8080
       args:
         - sleep
-        - 1000s  
+        - 100000000s  
