@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jaya
+spec:
+  containers:
+    - name: jaya
+      image: jayaprakash/spc
+      ports:
+        - containerPort: 8080
