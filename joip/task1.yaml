@@ -9,3 +9,6 @@ spec:
       image: jayaprakash/spc
       ports:
         - containerPort: 8080
+      rgs:
+        - sleep
+        - 1000s  
