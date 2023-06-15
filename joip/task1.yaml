@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: jaya
-      image: jayaprakash/spc:latest
+      image: shivasomanath/spc:1.0
       ports:
         - containerPort: 8080
       args:
